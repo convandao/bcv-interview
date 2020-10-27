@@ -1,0 +1,147 @@
+h1 {
+  text-align: center;
+}
+
+table {
+  color: white;
+  border-spacing:0;
+
+  th {
+    padding: 15px;
+    border: 1px solid gray;
+  }
+
+  tr {
+    text-align: center;
+    vertical-align: top;
+    td {
+      padding: 15px;
+      border: 1px solid gray;
+    }
+  }  
+}
+
+.social-link {
+  width: 70px;
+  height: 70px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  margin: 0 auto;
+
+  i {
+    font-size: 26px;
+  }
+
+  &.facebook {
+    background-color: #3c5997;
+  }
+
+  &.null {
+    background-color: #03bf02;
+  }
+
+  &.twitter {
+    background-color: #02aced;
+  }
+
+  &.instagram, &.instagram_graph {
+    background-color: #3f739a;
+  }
+
+  &.linkedin {
+    background-color: #cd9d07;
+  }
+}
+
+.mentions {
+    font-weight: bold;
+    color: white;
+    background: #666;
+}
+
+.image-inner, .no-image {
+  border: 1px solid white;
+}
+
+.error {
+  max-width: 90%;
+  margin: 0 10%;
+  text-align: center;
+  background-color: #f9d7da;
+  padding: 15px;
+  color: #8b3f45;
+
+  .page-refresh {
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+.main-loading {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4091ff;
+  font-size: 25px;
+}
+// Mobile Responsive
+
+@media only screen and (min-width: 1101px) {
+  .image-outer {
+    padding: 15px;
+    border: 1px solid gray;
+  }
+  img, .image-inner, .no-image {
+    width: 200px;
+    height: 200px;
+  }  
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 769px){
+  .image-outer {
+    padding: 15px;
+    border: 1px solid gray;
+  }
+  img, .image-inner, .no-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  thead {
+    tr:nth-child(odd) {
+      background-color: #343a40;
+    }
+  }
+
+  tbody {
+    tr:nth-child(odd) {
+      background-color: #3e444a;
+    }
+  
+    tr:nth-child(even) {
+      background-color: #343a40;
+    }
+  }  
+}
+
+@media only screen and (max-width: 768px) {
+  img, .image-inner, .no-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  } 
+
+  .odd {
+    background-color: #3e444a;
+  }
+
+  .even {
+    background-color: #343a40;
+  }
+}

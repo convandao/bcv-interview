@@ -1,0 +1,48 @@
+/* Sidebar Styles */
+#sidebar-wrapper {
+    width: 15%;
+    position: fixed;
+    height: 100vh;
+    background: #BDBDBD;
+    .sidebar-nav {
+        top: 0;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            text-indent: 20px;
+            line-height: 50px;
+            a {
+                display: block;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                &:hover {
+                    text-decoration: none;
+                    color: #fff;
+                    background: rgba(255,255,255,0.2);
+                }
+            }
+        }
+        li.sidebar-brand {
+            a {
+                &:hover {
+                    background-color: transparent;
+                }
+
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+        .logout {
+            cursor: pointer;
+        }        
+    }
+}
+
+.clicked a {
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+}

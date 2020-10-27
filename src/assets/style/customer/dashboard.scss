@@ -1,0 +1,29 @@
+.guest_dashboard {
+    text-align: center;
+    padding-top: 50px;
+    p {
+        margin: 0px;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        img, h3, div {
+            margin-left: 20px;
+        }
+    }
+    .description {
+        margin-bottom: 30px;
+    }
+    .upload {
+        background-color: #2196F3;
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        margin-top: 20px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #1d85da;
+        }
+    }
+}

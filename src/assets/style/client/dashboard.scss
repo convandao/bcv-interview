@@ -1,0 +1,42 @@
+.dashboard {
+    .glance {
+        ul {
+            list-style: none;
+            padding: 0px;
+        }
+        .expired {
+            color: #F5594E;
+        }
+        .soon {
+            color: #FF9902;
+        }
+    }
+    .header {
+        .svg-inline--fa {
+            margin-right: 20px;
+            color: #779FB6;
+        }
+    }
+    .item {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 20px;
+        img {
+            margin-right: 10px;
+        }
+        .description {
+            margin-right: 50px;
+            width: 200px;
+        }
+        p {
+            margin-bottom: 0px;
+        }
+        a {
+            color: #6EAC1C;
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

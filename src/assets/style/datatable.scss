@@ -1,0 +1,23 @@
+.datatable-title {
+    flex-wrap: wrap;
+    font-size: 22px;
+    color: rgba(0,0,0,0.87);
+    background-color: #FFFFFF;
+    padding-left: 16px;
+    padding-right: 8px
+}
+
+.filter-span {
+    position: relative;
+    z-index: 999
+}
+
+.certificate-filters {
+    width: 24% !important;
+    display: inline !important;
+}
+
+.subHeaderComponent {
+    width: 25% !important;
+    margin-top: -50px !important
+}

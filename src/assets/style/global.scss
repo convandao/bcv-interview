@@ -1,0 +1,31 @@
+.content {
+    width: 85%;
+    padding: 20px;
+    margin-left: 15%;
+}
+// react datatable css
+.rdt_TableHeader {
+    ~ div {
+        display: unset;
+    }
+}
+.rdt_Table {
+    .remove {
+        cursor: pointer;
+    }
+    .edit {
+        cursor: pointer;
+    }
+}
+
+.message {
+    color: green;
+}
+
+.validation-error {
+    color: red;
+}
+
+.fontweight-bold {
+    font-weight: bold
+}
